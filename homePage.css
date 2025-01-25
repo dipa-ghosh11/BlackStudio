@@ -1,0 +1,18 @@
+.nav-ul{
+    margin-left: 650px;
+}
+
+.nav-ul li:hover{
+    border-bottom:1px solid white ;
+}
+
+.nav-bar{
+    background-color: rgba(0, 0, 0, 0.044);
+}
+
+.imageSlider{
+    width: 60%;
+    height: 600px;
+    background-image: url("./Images/home1.webp");
+    block-size: 100%;
+}
