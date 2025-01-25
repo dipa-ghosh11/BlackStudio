@@ -1,3 +1,7 @@
+*::-webkit-scrollbar{
+    display: none;
+}
+
 .nav-ul{
     margin-left: 650px;
 }
@@ -15,4 +19,23 @@
     height: 600px;
     background-image: url("./Images/home1.webp");
     block-size: 100%;
+}
+
+.abt-us{
+    color: #DA9C27A6;
+    
+}
+
+.p-abt{
+    color: #E2D9C8;
+}
+
+.h1-abt{
+    color: #DA9C27A6;
+    margin-bottom: 20px;
+    /* font-family: inherit; */
+}
+
+.btn-abt{
+    color: #E0D6C4;
 }
