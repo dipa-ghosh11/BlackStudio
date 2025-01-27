@@ -45,7 +45,7 @@
 }
 
 .os-sec{
-    height: 200vh;
+    height: 700vh;
 }
 
 .img1::before{
@@ -74,4 +74,8 @@
     right: 37rem;
     top: 2rem;
     height: 31rem;
+}
+
+.ut-cat{
+    color: #DA9C27A6;
 }
