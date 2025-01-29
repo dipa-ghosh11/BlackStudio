@@ -46,6 +46,7 @@
 
 .os-sec{
     height: 700vh;
+    background-color: #222222;
 }
 
 .img1::before{
@@ -76,6 +77,24 @@
     height: 31rem;
 }
 
-.ut-cat{
+.ut-cat {
     color: #DA9C27A6;
+}
+
+.op{
+    color: #DA9C27A6;
+}
+
+.op-img{
+    width: 1201px;
+    height: 123px;
+    background-color:rgba(0, 0, 0, 0.142);
+    border-radius: 0 0 27px 27px;
+    backdrop-filter: blur(1.5px);
+}
+
+.op-btn{
+    left: 530PX;
+    margin-top: 3rem;
+
 }
