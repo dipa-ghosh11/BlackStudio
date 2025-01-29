@@ -14,12 +14,7 @@
     background-color: rgba(0, 0, 0, 0.044);
 }
 
-.imageSlider{
-    width: 60%;
-    height: 600px;
-    background-image: url("./Images/home1.webp");
-    block-size: 100%;
-}
+
 
 .abt-us{
     color: #DA9C27A6;
@@ -45,7 +40,7 @@
 }
 
 .os-sec{
-    height: 700vh;
+    height: 900vh;
     background-color: #222222;
 }
 
@@ -94,7 +89,23 @@
 }
 
 .op-btn{
-    left: 530PX;
-    margin-top: 3rem;
+    margin-left: 33rem;
+    margin-top: 0.5rem;
 
+}
+
+.review{
+    color: #DA9C27A6;
+}
+.tik-info{
+    color: #2222229E;
+}
+
+.test-col{
+    color: #222222CF;
+}
+
+.review-box{
+    height: 30rem;
+    width: 25rem;
 }
