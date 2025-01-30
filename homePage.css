@@ -125,3 +125,15 @@
 .f-i{
     width: 23rem;
 }
+
+.emoji{
+    border-radius: 50%;
+    background-color: #908B81;
+}
+
+.f-bg{
+    background-color: #E2D9C8A6;
+}
+.f-h{
+    width: 77rem;
+}
