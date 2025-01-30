@@ -1,0 +1,21 @@
+*::-webkit-scrollbar {
+    display: none;
+}
+
+
+.c-sec{
+    height: 832vh;
+}
+
+.nav-ul {
+    margin-left: 650px;
+}
+
+.nav-ul li:hover {
+    border-bottom: 1px solid white;
+}
+
+.nav-bar {
+    /* background-color: rgba(0, 0, 0, 0.044); */
+    background-color: #222222;
+}
