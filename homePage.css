@@ -40,7 +40,7 @@
 }
 
 .os-sec{
-    height: 900vh;
+    height: 832vh;
     background-color: #222222;
 }
 
@@ -108,4 +108,20 @@
 .review-box{
     height: 30rem;
     width: 25rem;
+}
+
+.cu{
+    color: #DA9C27A6;
+}
+
+.form-text{
+    color: #F4F2F2;
+}
+
+.f-m{
+    width: 76rem;
+}
+
+.f-i{
+    width: 23rem;
 }
