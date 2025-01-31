@@ -19,3 +19,26 @@
     /* background-color: rgba(0, 0, 0, 0.044); */
     background-color: #222222;
 }
+
+.f-b{
+    background-color: #DA9C27;
+}
+.f-t{
+    accent-color: #FFEAC2;
+}
+
+.f-y{
+    accent-color: #DA9C27;
+}
+.f-n{
+    accent-color: #FFEAC2;
+}
+
+                input[type="radio"] {
+        
+                    accent-color:#DA9C27 ;
+                    outline: none;
+                    border: none;
+                    
+        
+                }
