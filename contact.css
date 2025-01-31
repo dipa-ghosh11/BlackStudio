@@ -80,3 +80,28 @@ input[type="radio"] {
     /* box-shadow: 16px 16px 20px 17px rgb(0, 0, 0.25); */
     box-shadow: 16px 25px 50px 12px rgb(0 0 0 / 0.25);
 }
+
+.form-text {
+    color: #F4F2F2;
+}
+
+.f-m {
+    width: 76rem;
+}
+
+.f-i {
+    width: 23rem;
+}
+
+.emoji {
+    border-radius: 50%;
+    background-color: #908B81;
+}
+
+.f-bg {
+    background-color: #E2D9C8A6;
+}
+
+.f-h {
+    width: 77rem;
+}
