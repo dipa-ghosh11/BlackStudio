@@ -4,7 +4,8 @@
 
 
 .c-sec{
-    height: 832vh;
+    height: 515vh;
+    background-color: #222222;
 }
 
 .nav-ul {
@@ -17,7 +18,7 @@
 
 .nav-bar {
     /* background-color: rgba(0, 0, 0, 0.044); */
-    background-color: #222222;
+    background-color: black;
 }
 
 .f-b{
@@ -57,4 +58,12 @@ input[type="radio"] {
 .review-box {
     height: 30rem;
     width: 25rem;
+}
+.qA{
+    border-radius: 50%;
+}
+
+.c-hr{
+    background-color: #3C3C3C;
+    color: #3C3C3C;
 }
