@@ -67,3 +67,16 @@ input[type="radio"] {
     background-color: #3C3C3C;
     color: #3C3C3C;
 }
+
+.c-para{
+    color: #545454;
+}
+
+.c-s{
+    background-color: #DA9C27;
+}
+
+.c-box{
+    /* box-shadow: 16px 16px 20px 17px rgb(0, 0, 0.25); */
+    box-shadow: 16px 25px 50px 12px rgb(0 0 0 / 0.25);
+}
