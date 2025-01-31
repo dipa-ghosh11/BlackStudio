@@ -34,11 +34,27 @@
     accent-color: #FFEAC2;
 }
 
-                input[type="radio"] {
-        
-                    accent-color:#DA9C27 ;
-                    outline: none;
-                    border: none;
-                    
-        
-                }
+input[type="radio"] {
+
+    accent-color:#DA9C27 ;
+    outline: none;
+    border: none;
+    
+
+}
+
+.review {
+    color: #DA9C27A6;
+}
+
+.tik-info {
+    color: #2222229E;
+}
+.test-col {
+    color: #222222CF;
+}
+
+.review-box {
+    height: 30rem;
+    width: 25rem;
+}
