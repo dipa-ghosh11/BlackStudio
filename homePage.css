@@ -40,7 +40,7 @@
 }
 
 .os-sec{
-    height: 832vh;
+    height: 910vh;
     background-color: #222222;
 }
 
@@ -136,4 +136,8 @@
 }
 .f-h{
     width: 77rem;
+}
+
+.cat-p{
+    color: #E2D9C8;
 }
