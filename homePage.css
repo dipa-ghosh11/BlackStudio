@@ -1,72 +1,73 @@
-*::-webkit-scrollbar{
+*::-webkit-scrollbar {
     display: none;
 }
 
-.nav-ul{
-    margin-left: 650px;
+nav {
+    gap: 40rem;
 }
 
-.nav-ul li:hover{
-    border-bottom:1px solid white ;
+.nav-ul li:hover {
+    border-bottom: 1px solid white;
 }
 
-.nav-bar{
+.nav-bar {
     background-color: rgba(0, 0, 0, 0.044);
 }
 
 
 
-.abt-us{
+.abt-us {
     color: #DA9C27A6;
-    
+
 }
 
-.p-abt{
+.p-abt {
     color: #E2D9C8;
 }
 
-.h1-abt{
+.h1-abt {
     color: #DA9C27A6;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     /* font-family: inherit; */
 }
 
-.btn-abt{
+.btn-abt {
     color: #E0D6C4;
 }
 
-.os{
-    color:#DA9C27A6 ;
+.os {
+    color: #DA9C27A6;
 }
 
-.os-sec{
-    height: 910vh;
+.os-sec {
+    /* height: 910vh; */
     background-color: #222222;
 }
 
-.img1::before{
+.img1::before {
     content: "";
     background-color: white;
     position: absolute;
     left: 500px;
 }
 
-.img3{
+.img3 {
     height: 35rem;
     width: 30rem;
     right: 37rem;
 }
-.img2{
+
+.img2 {
     height: 34rem;
     width: 29rem;
 }
 
-.os-form{
+.os-form {
     height: 30rem;
     width: 32rem;
 }
 
-.img1{
+.img1 {
     right: 37rem;
     top: 2rem;
     height: 31rem;
@@ -76,68 +77,67 @@
     color: #DA9C27A6;
 }
 
-.op{
+.op {
     color: #DA9C27A6;
 }
 
-.op-img{
-    width: 1201px;
+.op-img {
+    width: inherit;
     height: 123px;
-    background-color:rgba(0, 0, 0, 0.142);
+    background-color: rgba(0, 0, 0, 0.142);
     border-radius: 0 0 27px 27px;
+    -webkit-backdrop-filter: blur(1.5px);
     backdrop-filter: blur(1.5px);
 }
 
-.op-btn{
-    margin-left: 33rem;
-    margin-top: 0.5rem;
 
-}
 
-.review{
+.review {
     color: #DA9C27A6;
 }
-.tik-info{
+
+.tik-info {
     color: #2222229E;
 }
 
-.test-col{
+.test-col {
     color: #222222CF;
 }
 
-.review-box{
+.review-box {
     height: 30rem;
     width: 25rem;
 }
 
-.cu{
+.cu {
     color: #DA9C27A6;
 }
 
-.form-text{
+.form-text {
     color: #F4F2F2;
 }
 
-.f-m{
+.f-m {
     width: 76rem;
 }
 
-.f-i{
+.f-i {
     width: 23rem;
 }
 
-.emoji{
+.emoji {
     border-radius: 50%;
     background-color: #908B81;
 }
 
-.f-bg{
+.f-bg {
     background-color: #E2D9C8A6;
 }
-.f-h{
+
+.f-h {
     width: 77rem;
 }
 
-.cat-p{
+.cat-p {
     color: #E2D9C8;
 }

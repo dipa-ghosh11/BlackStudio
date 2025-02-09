@@ -12,273 +12,337 @@
 
 <body>
     <main>
-        
-            <section class="container h-screen w-full bg-[url('./Images/background_image.png')] bg-center bg-cover">
-                <nav class="flex items-center justify-between nav-bar w-full px-32 h-14 text-white">
-                    <strong class="font-bold px-1">Black </strong> Studio
-                    <ul class="flex text-right nav-ul justify-between space-x-10">
-                        <li class="list-none"><a href="" class="no-underline ">HOME</a></li>
-                        <li class="list-none"><a href="" class="no-underline ">PAGES</a></li>
-                        <li class="list-none"><a href="" class="no-underline ">PORTFOLIO</a></li>
-                        <li class="list-none"><a href="#about-us" class="no-underline ">ABOUT</a></li>
-                        <li class="list-none"><a href="./contact.html" class="no-underline ">CONTACT</a></li>
-                        <li class="list-none"><a href="" class="no-underline ">PRICING</a></li>
+
+        <section class="container h-screen bg-[url('./Images/background_image.png')] bg-center bg-cover">
+            <nav class="flex justify-between items-center px-8 md:px-32 h-16 text-white w-screen ">
+                <h1 class="text-lg whitespace-nowrap">
+                    <span class="font-bold">Black</span> Studio
+                </h1>
+                <button id="menu-btn"
+                    class="block md:hidden text-white text-2xl max-md:absolute max-md:top-4 max-md:right-4">
+                    ☰
+                </button>
+                <ul id="menu"
+                    class="hidden md:flex gap-x-10 text-sm md:text-base absolute md:relative top-16 md:top-0 left-0 w-full md:w-auto bg-black md:bg-transparent text-white flex-col md:flex-row items-center md:items-start p-5 md:p-0 nav-ul">
+                    <li class="list-none"><a href="/" class="no-underline block py-2">HOME</a></li>
+                    <li class="list-none"><a href="" class="no-underline block py-2">PAGES</a></li>
+                    <li class="list-none"><a href="" class="no-underline block py-2">PORTFOLIO</a></li>
+                    <li class="list-none"><a href="#about-us" class="no-underline block py-2">ABOUT</a></li>
+                    <li class="list-none"><a href="./contact.html" class="no-underline block py-2">CONTACT</a></li>
+                    <li class="list-none"><a href="" class="no-underline block py-2">PRICING</a></li>
+                </ul>
+            </nav>
+
+            <div class="flex flex-col text-white text-center md:text-left px-8 md:px-32">
+                <div class="mt-32 md:mt-48">
+                    <h1 class="text-4xl md:text-5xl leading-tight">
+                        We take pride in building stylish <br class="hidden md:block">
+                        and featured interior design.
+                    </h1>
+                    <p class="text-xl md:text-2xl mt-6">Explore site <span>&#8594;</span></p>
+                    <ul class="mt-16 flex justify-center md:justify-start gap-6 text-2xl">
+                        <li><i class="fa fa-facebook-f"></i></li>
+                        <li><i class="fa fa-instagram"></i></li>
+                        <li><i class="fa fa-twitter"></i></li>
                     </ul>
-                </nav>
+                </div>
+            </div>
+        </section>
 
-                <div class=" flex-col text-white ">
-                    <div class="ml-32 mt-48">
-                        <h1 class="text-5xl ">We take pride in building stylish <br> and featured interior design.</h1>
-                        <p class="text-2xl mt-8">Explore site <span>&#8594;</span></p>
-                        <ul class="mt-40">
-                            <li class="mb-3"><i class="fa fa-facebook-f"></i></li>
-                            <li class="mb-3"><i class="fa fa-instagram"></i></li>
-                            <li class="mb-3"><i class="fa fa-twitter"></i></li>
-                        </ul>
+        <script>
+            // Toggle mobile menu
+            document.getElementById("menu-btn").addEventListener("click", function () {
+                document.getElementById("menu").classList.toggle("hidden");
+            });
+        </script>
+
+
+
+        <section class="bg-[url('./Images/bg_abtUs.png')] bg-center bg-cover w-full h-screen flex items-center">
+            <div class="flex flex-col md:flex-row px-8 md:px-32 w-full items-center md:items-start" id="about-us">
+
+                <div class="text-center md:text-left md:w-1/2">
+                    <p class="text-3xl text-white abt-us">ABOUT US</p>
+                    <h1 class="text-white text-4xl md:text-5xl my-6">
+                        Creative solutions <br class="hidden md:block"> by professional designers
+                    </h1>
+                    <p class="text-lg md:text-2xl text-gray-300 leading-relaxed">
+                        Our team is made up of great designers around the globe <br class="hidden md:block">
+                        with years of experience and professionalism. We've tackled <br class="hidden md:block">
+                        several projects this past few years, gaining global recognition.
+                    </p>
+                    <button
+                        class="rounded-full bg-white text-black text-xl py-3 px-8 mt-6 hover:bg-red-600 transition">
+                        Read More
+                    </button>
+
+                    <div class="flex max-md:text-xs max-md:px-5 justify-between mt-12 text-white">
+                        <div class="p-4 text-center md:text-left">
+                            <h1 class="text-xl md:text-7xl font-semibold h1-abt">24+</h1>
+                            <p class="text-sm">Awards received</p>
+                        </div>
+                        <div class="border-t md:border-t-0 md:border-x-2 border-gray-300 px-10 py-4">
+                            <h1 class="text-xl md:text-7xl font-semibold h1-abt">894+</h1>
+                            <p class="text-md">Projects completed</p>
+                        </div>
+                        <div class="p-4 text-center md:text-left">
+                            <h1 class="text-xl md:text-7xl font-semibold h1-abt">42+</h1>
+                            <p class="text-md">Company Divisions</p>
+                        </div>
                     </div>
                 </div>
 
-            </section>
-
-            <section class="bg-[url('./Images/bg_abtUs.png')] bg-center bg-cover w-full h-screen ">
-                <div class="flex flex-row pt-22 ml-32 mb-9 px-0" id="about-us">
-                    <div class="">
-                        <div>
-                            <P class="abt-us mb-2 text-3xl">ABOUT US</P>
-                            <h1 class="text-white text-5xl inter my-7">Creative solutions <br>by professional designers</h1>
-                            <p class="p-abt mb-6 text-2xl">Our team is made up of great designers <br> around the globe with years of experience and <br> professionalism. We’ve tackled several projects this past <br>few years, and gained global recognition in our expertise.</p>
-                            <button class="rounded-full bg-red-100 h-14 w-52 text-2xl text-center my-5">Read More</button>
-                        </div>
-
-                        <div class="flex flex-row  top-1/4 justify-evenly space-x-2 my-8">
-                            <div class="p-5">
-                                <h1 class="text-7xl h1-abt font-semibold">24 &#8314;</h1>
-                                <p class="p-abt">Awards received</p>
-                            </div>
-                            <div class="border-gray-100 py-5 px-10 border-x-1 mx-8">
-                                <h1 class="text-7xl h1-abt font-semibold">894 &#8314;</h1>
-                                <p class="p-abt"> Projects completed</p>
-                            </div>
-                            <div class="p-5">
-                                <h1 class="text-7xl h1-abt font-semibold">42 &#8314;</h1>
-                                <p class="p-abt">Company Division</p>
-                            </div>
-                        </div>
-
-                    </div>
-                    <img src="./Images/abt_us.png" alt="blank_interior" class="absolute h-4/5 right-0">
-                    
+                <div class="md:w-1/2 flex justify-center mt-10 md:mt-0">
+                    <img src="./Images/abt_us.png" alt="Interior Design"
+                        class="w-3/4 md:w-full max-w-md md:max-w-lg h-auto">
                 </div>
 
-                
-            </section>
+            </div>
+        </section>
 
-            <section class="os-sec">
 
-                <div class="text-white pt-12 ">
-                    <p class="text-center os text-3xl">OUR SERVICES</p>
-                    <div class="flex flex-row ml-32 space-x-36 mt-12">
-                        <div>
-                            <img src="./Images/os_1.png" alt="vector1" class="my-7">
-                            <p class="my-7 text-3xl">DESIGN CONSULTATION</p>
-                            <p class="my-7 text-2xl">Get ideas of possibilities open<br> to you regarding<br> products, finishes and the cost<br> before you
+        <section class="os-sec pb-8">
+
+            <div class="text-white pt-12">
+                <p class="text-center os text-3xl">OUR SERVICES</p>
+                <div
+                    class="flex max-md:flex-col ml-32 gap-x-36 mt-12 max-md:mt-0 max-md:items-center max-md:justify-center max-md:ml-0">
+                    <div>
+                        <img src="./Images/os_1.png" alt="vector1" class="my-7">
+                        <p class="my-7 text-3xl max-md:text-xl">DESIGN CONSULTATION</p>
+                        <p class="my-7 text-2xl max-md:text-lg max-md:my-0">Get ideas of possibilities open<br> to you
+                            regarding<br> products, finishes and the cost<br> before you
                             commit variation.</p>
-                            <button class="my-6 text-3xl">Read More &#8594;</button>
+                        <button class="my-6 text-3xl max-md:text-xl">Read More &#8594;</button>
+                    </div>
+                    <div>
+                        <img src="./Images/os_2.png" alt="vector2" class="my-7">
+                        <p class="my-7 text-3xl max-md:text-xl">INTERIOR DESIGN</p>
+                        <p class="my-7 text-2xl max-md:text-lg max-md:my-0">Design service tailored to each<br> client's
+                            brief and budget,<br> bringing their ideas into fruition<br> in carefully curated
+                            scheme.</p>
+                        <button class="my-6 text-3xl max-md:text-xl">Read More &#8594;</button>
+                    </div>
+                    <div>
+                        <img src="./Images/os_3.png" alt="vector3" class="my-7">
+                        <p class="my-7 text-3xl max-md:text-xl">PROJECT COORDINATION</p>
+                        <p class="my-7 text-2xl max-md:text-lg max-md:my-0">Our team also actively engage <br>in
+                            planning process of several<br> building projects with other <br>teams on joint projects.
+                        </p>
+                        <button class="my-6 text-3xl max-md:text-xl">Read More &#8594;</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-black flex flex-row mt-20 max-md:w-1/2">
+                <div
+                    class="border-2 border-white bg-white ml-32 aspect-9/16 z-50 os-form relative left-0 mt-7 max-md:ml-10">
+                    <div class="m-9">
+                        <p>#Black studio</p>
+                        <p class="text-2xl">Creative Approach</p>
+                        <div class="flex flex-row justify-between my-3">
+                            <p>Story & Concept</p>
+                            <p class="text-3xl">&#8722;</p>
                         </div>
-                        <div>
-                            <img src="./Images/os_2.png" alt="vector2" class="my-7">
-                            <p class="my-7 text-3xl">INTERIOR DESIGN</p>
-                            <p class="my-7 text-2xl">Design service tailored to each<br> client’s brief and budget,<br> bringing their ideas into fruition<br> in carefully curated
-                            scheme.</p> 
-                            <button class="my-6 text-3xl">Read More &#8594;</button>
+                        <hr>
+                        <p class="my-5">Read on how we make awesome projects from scratch,through several series of
+                            testing and refining to make our awesome masterclass.</p>
+                        <hr>
+                        <div class="flex flex-row justify-between my-3">
+                            <p>Design and Testing</p>
+                            <p class="text-3xl">&#43;</p>
                         </div>
-                        <div>
-                            <img src="./Images/os_3.png" alt="vector3" class="my-7">
-                            <p class="my-7 text-3xl">PROJECT COORDINATION</p>
-                            <p class="my-7 text-2xl">Our team also actively engage <br>in planning process of several<br> building projects with other <br>teams on joint projects.</p>
-                            <button class="my-6 text-3xl">Read More &#8594;</button>
+                        <div class="flex flex-row justify-between mb-3">
+                            <p>Revision and Rendering</p>
+                            <p class="text-3xl">&#43;</p>
+                        </div>
+                        <hr>
+                        <button class="rounded-full text-center h-10 w-32 border-2 border-black mt-5 mb-2">Read
+                            More</button>
+                    </div>
+                </div>
+                <img src="./Images/box2.png" alt="" class="img2 relative right-60 aspect-9/16 max-md:hidden">
+                <img src="./Images//box3.png" alt="" class="aspect-9/16 img3 z-40 relative top-1 max-md:hidden">
+                <img src="./Images/box1.png" alt="" class="w-72 relative img1">
+            </div>
+
+            <div class="text-white mt-20 container">
+                <div class="text-center">
+                    <p class="ut-cat my-3 text-3xl max-md:text-center">CATEGORY</p>
+                    <p class="text-6xl my-3 max-md:text-xl">Discover your Unique Taste</p>
+                    <p class="my-12 text-2xl max-md:text-lg max-md:my-0">Our team pride in creating different style of
+                        design<br>complimenting the client taste and budget.</p>
+                    <!-- <p class="text-6xl my-3">Discover your Unique Taste</p>
+                        <p class="my-12 text-2xl">Our team pride in creating different style of design<br>complimenting the client taste and budget.</p> -->
+                </div>
+                <div class="flex flex-col ml-32 max-md:ml-0 max-md:px-5 max-md:mt-8">
+                    <div class="flex flex-row gap-x-14 max-md:gap-x-8">
+                        <div class="h-[459px] w-[530px]">
+                            <img src="./Images/ut1.png" alt="">
+                            <p class="text-5xl my-3 max-md:text-2xl">Minimalistic Style</p>
+                            <p class="text-2xl mt-4 cat-p max-md:text-lg">Shedding of the excessive but still
+                                maintaining the classiness and stylishness.</p>
+                        </div>
+                        <div class="h-[459px] w-[630px] ">
+                            <img src="./Images/ut2.png" alt="">
+                            <p class="text-5xl my-3 max-md:text-2xl">Japanense Style</p>
+                            <p class="my-3 text-2xl mt-4 cat-p max-md:text-lg">Enhancing the natural polished look of
+                                trees and wooden, simple artistic and beautiful.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-row my-48 gap-x-14 max-md:m-0 max-md:gap-x-8">
+                        <div class="h-[459px] w-[630px]">
+                            <img src="./Images/ut4.png" alt="">
+                            <p class="text-5xl my-3 max-md:text-2xl">Royalty Style</p>
+                            <p class="text-2xl mt-5 cat-p max-md:text-lg">Elegant luxurious portraying class and
+                                authority, a style befitting for Kings and Monarchs.</p>
+                        </div>
+                        <div class="h-[459px] w-[530px] mt-5 max-md:mt-0">
+                            <img src="./Images/ut3.png" alt="">
+                            <p class="text-5xl my-3 max-md:text-2xl">Wooden Style</p>
+                            <p class="text-2xl mt-4 cat-p max-md:text-lg">Enhancing the natural polished look of trees
+                                and wooden, simple artistic and beautiful.</p>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="text-black flex flex-row mt-20">
-                    <div class="border-2 border-white bg-white ml-32 aspect-9/16 z-50 os-form relative left-0 mt-7">
-                        <div class="m-9">
-                            <p>#Black studio</p>
-                            <p class="text-2xl">Creative Approach</p>
-                            <div class="flex flex-row justify-between my-3">
-                                <p>Story & Concept</p>
-                                <p class="text-3xl">&#8722;</p>
-                            </div>
-                            <hr>
-                            <p class="my-5">Read on how we make awesome projects from scratch,through several series of testing and refining to make our awesome masterclass.</p>
-                            <hr>
-                            <div class="flex flex-row justify-between my-3">
-                                <p>Design and Testing</p>
-                                <p class="text-3xl">&#43;</p>
-                            </div>
-                            <div class="flex flex-row justify-between mb-3">
-                                <p>Revision and Rendering</p>
-                                <p class="text-3xl">&#43;</p>
-                            </div>
-                            <hr>
-                            <button class="rounded-full text-center h-10 w-32 border-2 border-black mt-5 mb-2">Read More</button>
+            <div class="text-white ml-32 max-md:ml-0">
+                <p class="op text-3xl my-9 max-md:text-center">OUR PROJECTS</p>
+                <div class="flex flex-col gap-y-16">
+                    <div class="relative">
+                        <img src="./Images/card1.png" alt="">
+                        <div class="absolute bottom-0 op-img py-5 pl-5 max-md:w-0">
+                            <p class="text-5xl tracking-wider max-md:text-2xl">Cassonava Palace</p>
+                            <p class="text-2xl max-md:text-lg">Alabama, New-york 2020</p>
                         </div>
                     </div>
-                    <img src="./Images/box2.png" alt="" class="img2 relative right-60 aspect-9/16">
-                    <img src="./Images//box3.png" alt="" class="aspect-9/16 img3 z-40 relative top-1">
-                    <img src="./Images/box1.png" alt="" class="w-72 relative img1">
+                    <div class="relative">
+                        <img src="./Images/card2.png" alt="">
+                        <div class="absolute bottom-0 op-img py-5 pl-5">
+                            <p class="text-5xl tracking-wider max-md:text-2xl">Perialina</p>
+                            <p class="text-2xl max-md:text-lg">Lagos, Nigeria 2023</p>
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <img src="./Images/card3.png" alt="">
+                        <div class="absolute bottom-0 op-img py-5 pl-5">
+                            <p class="text-5xl tracking-wider max-md:text-2xl">Fabby Castle</p>
+                            <p class="text-2xl max-md:text-lg">Inter Miami, USA 2024</p>
+                        </div>
+                    </div>
+                    <button
+                        class="text-center bg-red-100 h-14 w-48 text-black rounded-full op-btn cursor-pointer text-2xl relative left-1/2 -translate-x-1/2 max-md:text-lg max-md:w-1/2">More
+                        Project</button>
                 </div>
+            </div>
 
-                <div class="text-white mt-20 ml-32">
-                    <div class="text-center">
-                        <p class="ut-cat my-3 text-3xl">CATEGORY</p>
-                        <p class="text-6xl my-3">Discover your Unique Taste</p>
-                        <p class="my-12 text-2xl">Our team pride in creating different style of design<br>complimenting the client taste and budget.</p>
-                    </div>
-                    <div class="flex flex-col">
-                        <div class="flex flex-row space-x-14">
-                            <div class="h-[459px] w-[530px]">
-                                <img src="./Images/ut1.png" alt="">
-                                <p class="text-5xl my-3">Minimalistic Style</p>
-                                <p class="text-2xl mt-4 cat-p">Shedding of the excessive but still maintaining the classiness and stylishness.</p>
-                            </div>
-                            <div class="h-[459px] w-[630px]">
-                                <img src="./Images/ut2.png" alt="">
-                                <p class="text-5xl my-3">Japanense Style</p>
-                                <p class="my-3 text-2xl mt-4 cat-p">Enhancing the natural polished look of trees and wooden,<br> simple artistic and beautiful.</p>
-                            </div>
-                        </div>
-
-                        <div class="flex flex-row my-48 space-x-14">
-                            <div class="h-[459px] w-[630px]">
-                                <img src="./Images/ut4.png" alt="">
-                                <p class="text-5xl my-3">Royalty Style</p>
-                                <p class="text-2xl mt-5 cat-p">Elegant luxurious portraying class and authority, a style befitting for Kings and Monarchs.</p>
-                            </div>
-                            <div class="h-[459px] w-[530px] mt-5">
-                                <img src="./Images/ut3.png" alt="">
-                                <p class="text-5xl my-3">Wooden Style</p>
-                                <p class="text-2xl mt-4 cat-p">Enhancing the natural polished look of trees and wooden, simple artistic and beautiful.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="text-white ml-32">
-                    <p class="op text-3xl my-9">OUR PROJECTS</p>
-                    <div class="flex flex-col gap-y-16">
-                        <div class="relative">
-                            <img src="./Images/card1.png" alt="">
-                            <div class="absolute bottom-0 op-img py-5 pl-5"> 
-                                <p class="text-5xl tracking-wider">Cassonava Palace</p>
-                                <p class="text-2xl">Alabama, New-york 2020</p>
-                            </div>
-                        </div>
-                        <div class="relative">
-                            <img src="./Images/card2.png" alt="">
-                            <div class="absolute bottom-0 op-img py-5 pl-5">
-                                <p class="text-5xl tracking-wider">Perialina</p>
-                                <p class="text-2xl">Lagos, Nigeria 2023</p>
-                            </div>
-                        </div>
-                        <div class="relative">
-                            <img src="./Images/card3.png" alt="">
-                            <div class="absolute bottom-0 op-img py-5 pl-5">
-                                <p class="text-5xl tracking-wider">Fabby Castle</p>
-                                <p class="text-2xl">Inter Miami, USA 2024</p>
-                            </div>
-                        </div>
-                        <button class="text-center bg-red-100 h-14 w-48 text-black rounded-full op-btn cursor-pointer text-2xl">More Project</button>
-                    </div>
-                    </div>
-
-                <div class="ml-32">
-                    <p class="review text-3xl my-14">REVIEWS</p>
-                    <div class="flex flex-row">
-                        <img src="./Images/review.png" alt="" class="h-[580px] w-[650px]">
-                        <div class="border-1 border-white bg-white review-box rounded-3xl ml-20 mt-10">
-                            <div class="ml-7 flex flex-col gap-7">
-                                <p class="test-col mt-11">TESTIMONIALS</p>
-                                <p class="text-4xl tracking-wide">Bringing your ideas<br> into reality</p>
-                                <p>“Consulting Black Studio during the process of<br>building my castle really helped giving the house<br>
+            <div class="ml-32 max-md:ml-0">
+                <p class="review text-3xl my-14 max-md:text-center">REVIEWS</p>
+                <div class="flex flex-row max-md:px-5 max-md:flex-wrap-reverse gap-5">
+                    <img src="./Images/review.png" alt="" class="h-[580px] w-[650px] max-md:w-full max-md:h-auto">
+                    <div
+                        class="border-1 border-white bg-white review-box rounded-3xl ml-20 mt-10 max-md:ml-0 max-md: max-md:pb-10 max-md:w-full max-md:pr-15">
+                        <div class="ml-7 flex flex-col gap-7">
+                            <p class="test-col mt-11">TESTIMONIALS</p>
+                            <p class="text-4xl tracking-wide max-md:text-2xl">Bringing your ideas<br> into reality</p>
+                            <p class="max-md:text-sm">“Consulting Black Studio during the process of<br>building my
+                                castle really helped giving the house
                                 the feel i envisioned, they deliver“</p>
 
-                                <div class="flex flex-row mt-8 gap-4">
-                                    <img src="./Images/review1.png" alt="">
-                                    <div>
-                                        <p class="test-col">Claura James</p>
-                                        <p class="tik-info">Tiktok Influencer</p>
-                                    </div>                                   
-                                    <img src="./Images/left.png" alt="" class="w-10 h-10 ml-7">
-                                    <img src="./Images/right.png" alt="" class="w-10 h-10">
+                            <div class="flex flex-row mt-8 gap-4 max-md:mt-1">
+                                <img src="./Images/review1.png" alt="">
+                                <div>
+                                    <p class="test-col max-md:text-sm">Claura James</p>
+                                    <p class="tik-info max-md:text-xs">Tiktok Influencer</p>
                                 </div>
+                                <img src="./Images/left.png" alt="" class="w-10 h-10 ml-7 max-md:ml-2">
+                                <img src="./Images/right.png" alt="" class="w-10 h-10">
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="text-white ml-32 mt-24">
-                    <p class="cu text-3xl text-center">CONTACT US</p>
-                    <div>
-                        <p class="text-5xl">Have a Project?</p>
-                        <p class="form-text text-2xl mt-2">Let make it outstanding</p>
-                        <p class="my-9 form-text text-2xl">Fill out this form and our team will get back to you.</p>
+            <div class="text-white ml-32 mt-24 max-md:ml-0">
+                <p class="cu text-3xl text-center">CONTACT US</p>
+                <div class="max-md:w-full max-md:flex-col max-md:items-center max-md:justify-center mt-10">
+                    <p class="text-5xl max-md:text-2xl">Have a Project?</p>
+                    <p class="form-text text-2xl mt-2 max-md:text-lg">Let make it outstanding</p>
+                    <p class="my-9 form-text text-2xl max-md:text-lg">Fill out this form and our team will get back to
+                        you.</p>
 
-                        <form action="" class="mt-20">
-                            <div class="space-y-8 text-2xl mt-8">
-                                <div class="flex flex-row gap-x-14">
-                                    <div class="flex flex-col f-i">
-                                        <label for="username" class="">Your Name&lowast;</label>
-                                        <input type="text" name="username" class="border-b-1 border-white">
-                                    </div>
-                                    <div class="flex flex-col f-i">
-                                        <label for="email" class="form-text">Your Email Address&lowast;</label>
-                                        <input type="email" name="email" class="border-b-1 border-white ">
-                                    </div>
-                                    <div class="flex flex-col f-i">
-                                        <label for="phone-number" class="form-text">Your Phone number&lowast;</label>
-                                        <input type="text" name="phone-number" class="border-b-1 border-white ">
-                                    </div>
-                                    
+                    <form action="" class="mt-20 w-full max-w-4xl px-6">
+                        <div class="space-y-6 text-lg md:text-2xl">
+                            <!-- Grid layout for responsiveness -->
+                            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                                <div class="flex flex-col">
+                                    <label for="username">Your Name *</label>
+                                    <input type="text" name="username"
+                                        class="border-b border-white bg-transparent outline-none focus:border-gray-300 w-full py-2">
                                 </div>
-                                <div class="flex flex-row gap-x-14">
-                                    <div class="flex flex-col f-i">
-                                        <label for="company-name" class="form-text">Company name</label>
-                                        <input type="text" name="company-name" class="border-b-1 border-white">
-                                    </div>
-                                    <div class="flex flex-col f-i">
-                                        <label for="service" class="form-text">Select a service</label>
-                                        <input type="text" name="service" class="border-b-1 border-white">
-                                    </div>
-                                    <div class="flex flex-col f-i">
-                                        <label for="subject" class="form-text">Subject</label>
-                                        <input type="text" name="subject" class="border-b-1 border-white">
-                                    </div>
-                                    
+                                <div class="flex flex-col">
+                                    <label for="email">Your Email Address *</label>
+                                    <input type="email" name="email"
+                                        class="border-b border-white bg-transparent outline-none focus:border-gray-300 w-full py-2">
                                 </div>
-                                <div class="flex flex-col f-m">
-                                    <label for="subject" class="form-text">Your message&lowast;</label>
-                                    <input type="text" name="subject" class="border-b-1 border-white">
+                                <div class="flex flex-col">
+                                    <label for="phone-number">Your Phone Number *</label>
+                                    <input type="text" name="phone-number"
+                                        class="border-b border-white bg-transparent outline-none focus:border-gray-300 w-full py-2">
                                 </div>
-                                <button class="text-center border-1 border-white text-white h-16 w-56 rounded-3xl cursor-pointer mt-3 mb-4" >Send Message</button>
                             </div>
-                        </form>
-                    </div>
-                </div>
 
-            </section>
-                              
+                            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                                <div class="flex flex-col">
+                                    <label for="company-name">Company Name</label>
+                                    <input type="text" name="company-name"
+                                        class="border-b border-white bg-transparent outline-none focus:border-gray-300 w-full py-2">
+                                </div>
+                                <div class="flex flex-col">
+                                    <label for="service">Select a Service</label>
+                                    <input type="text" name="service"
+                                        class="border-b border-white bg-transparent outline-none focus:border-gray-300 w-full py-2">
+                                </div>
+                                <div class="flex flex-col">
+                                    <label for="subject">Subject</label>
+                                    <input type="text" name="subject"
+                                        class="border-b border-white bg-transparent outline-none focus:border-gray-300 w-full py-2">
+                                </div>
+                            </div>
+
+                            <div class="flex flex-col">
+                                <label for="message">Your Message *</label>
+                                <textarea name="message" rows="4"
+                                    class="border-b border-white bg-transparent outline-none focus:border-gray-300 w-full py-2"></textarea>
+                            </div>
+
+                            <div class="flex justify-center">
+                                <button
+                                    class="text-center border border-white text-white h-14 w-56 rounded-3xl cursor-pointer hover:bg-white hover:text-black transition-all">
+                                    Send Message
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+
+        </section>
+
     </main>
 
-    <footer class="bg-[url('./Images/footer.png')] f-bg">
-        <div class="ml-32 pt-7 mr-10">
-            
-            <div class="flex flex-row justify-between text-2xl">
+    <footer class="bg-[url('./Images/footer.png')] bg-cover bg-center py-10">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-center md:text-left">
                 <div>
                     <p class="text-3xl">Black Studio</p>
-                    <p>Style your interior with us</p>
-                    <div class="flex flex-row my-6 justify-between">
+                    <p class="text-lg mt-2">Style your interior with us</p>
+
+                    <!-- Social Media Icons -->
+                    <div class="flex justify-center md:justify-start gap-4 mt-6">
                         <div class="emoji h-12 w-12 flex justify-center items-center">
                             <img src="./Images/fb.png" alt="" class="h-6 ">
                         </div>
@@ -293,33 +357,22 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="mr-36 text-2xl">
-                    <ul class="flex flex-row justify-evenly space-x-7">
-                        <li><a href="./index.html">HOME</a></li>
-                        <li>PAGES</li>
-                        <li>GALLERY</li>
-                    </ul>
-                </div>
-
-            </div>
-
-            <hr class="f-h">
-            <div class="flex flex-row justify-between mr-36 py-4 text-2xl">
-                <div>
-                    <p>Black Studio @ All Right Reserved</p>
-                </div>
-
-                <div class="flex flex-row space-x-5">
-                    <p>Terms and Conditions</p>
-                    <p>Privacy Policy</p>
-                    <p>Cookies</p>
+                <div class="flex flex-col md:flex-row md:justify-end text-lg space-y-3 md:space-y-0 md:space-x-7">
+                    <a href="./index.html">HOME</a>
+                    <a href="#">PAGES</a>
+                    <a href="#">GALLERY</a>
                 </div>
             </div>
-        
+            <hr class="border-t border-gray-400 my-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-center md:text-left">
+                <p>© Black Studio. All Rights Reserved</p>
+                <div class="flex justify-center md:justify-end space-x-5 text-lg">
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Cookies</a>
+                </div>
+            </div>
         </div>
-
     </footer>
 </body>
-
 </html>

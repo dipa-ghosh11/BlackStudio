@@ -3,7 +3,7 @@
 }
 
 
-.c-sec{
+.c-sec {
     height: 515vh;
     background-color: #222222;
 }
@@ -21,26 +21,28 @@
     background-color: black;
 }
 
-.f-b{
+.f-b {
     background-color: #DA9C27;
 }
-.f-t{
+
+.f-t {
     accent-color: #FFEAC2;
 }
 
-.f-y{
+.f-y {
     accent-color: #DA9C27;
 }
-.f-n{
+
+.f-n {
     accent-color: #FFEAC2;
 }
 
 input[type="radio"] {
 
-    accent-color:#DA9C27 ;
+    accent-color: #DA9C27;
     outline: none;
     border: none;
-    
+
 
 }
 
@@ -51,6 +53,7 @@ input[type="radio"] {
 .tik-info {
     color: #2222229E;
 }
+
 .test-col {
     color: #222222CF;
 }
@@ -59,24 +62,25 @@ input[type="radio"] {
     height: 30rem;
     width: 25rem;
 }
-.qA{
+
+.qA {
     border-radius: 50%;
 }
 
-.c-hr{
+.c-hr {
     background-color: #3C3C3C;
     color: #3C3C3C;
 }
 
-.c-para{
+.c-para {
     color: #545454;
 }
 
-.c-s{
+.c-s {
     background-color: #DA9C27;
 }
 
-.c-box{
+.c-box {
     /* box-shadow: 16px 16px 20px 17px rgb(0, 0, 0.25); */
     box-shadow: 16px 25px 50px 12px rgb(0 0 0 / 0.25);
 }
